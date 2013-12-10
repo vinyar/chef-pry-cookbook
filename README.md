@@ -3,6 +3,13 @@ Description
 
 Installs the pry and pry-debugger gems for use with the Chef Ruby.
 
+Put this block in your recipe to drop into pry there in your chef-client run:
+
+```ruby
+require 'pry'
+binding.pry
+```
+
 License and Author
 ==================
 
